@@ -21,7 +21,7 @@ built-in Kotlin on Android Gradle Plugin 9.1.0.
 
 ```yaml
 dependencies:
-  telegram_native_auth: ^1.0.0
+  telegram_native_auth: ^1.0.1
 ```
 
 For development before the first pub.dev release, use a local path or the

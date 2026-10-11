@@ -1,3 +1,8 @@
+## 1.0.1
+
+* Allow Equatable 2.x and 3.x while preserving the existing model API.
+* Add compatibility tests for model equality, hashing, and string representations.
+
 ## 1.0.0
 
 * Forked `telegram_login` 1.2.1 with its Dart API and Android behavior preserved.
