@@ -1,0 +1,27 @@
+name: telegram_native_auth
+description: Native Telegram login for Android and iOS, with Swift Package Manager and CocoaPods support and a compatible TelegramLogin API.
+version: 1.0.0
+
+environment:
+  sdk: ^3.12.0
+  flutter: ">=3.44.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.khode.telegram_login
+        pluginClass: TelegramLoginPlugin
+      ios:
+        pluginClass: TelegramLoginPlugin
