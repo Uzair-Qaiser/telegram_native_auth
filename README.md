@@ -24,7 +24,8 @@ dependencies:
   telegram_native_auth: ^1.0.0
 ```
 
-Before the first pub.dev release, use a local path or your own Git repository.
+For development before the first pub.dev release, use a local path or the
+[GitHub repository](https://github.com/Uzair-Qaiser/telegram_native_auth).
 Remove `telegram_login` and any override for it. Do not install both packages:
 the native plugin class and method channel are deliberately retained.
 
@@ -169,8 +170,7 @@ SwiftPM callback-registration tests are in
 `ios/telegram_native_auth/Tests/TelegramNativeAuthTests`. Run them in an iOS
 Xcode test destination with FlutterFramework available through Flutter tooling.
 
-Run `dart pub publish --dry-run` before publishing. Add your actual repository
-and issue-tracker URLs to pubspec.yaml when the repository exists. Validate
+Run `dart pub publish --dry-run` before publishing. Validate
 CocoaPods and SwiftPM builds and perform real-device login/cancellation tests
 before advertising platform coverage.
 

@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'Native Telegram login for Flutter'
   s.description      = 'Telegram login for iOS with universal-link callbacks and browser authentication.'
-  s.homepage         = 'https://pub.dev/packages/telegram_native_auth'
+  s.homepage         = 'https://github.com/Uzair-Qaiser/telegram_native_auth'
   s.license          = { :file => '../LICENSE' }
   s.author           = 'Uzair Qaiser'
   s.source           = { :path => '.' }
