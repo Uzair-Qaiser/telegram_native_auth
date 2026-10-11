@@ -1,6 +1,6 @@
 name: telegram_native_auth
 description: Native Telegram login for Android and iOS, with Swift Package Manager and CocoaPods support and a compatible TelegramLogin API.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/Uzair-Qaiser/telegram_native_auth
 repository: https://github.com/Uzair-Qaiser/telegram_native_auth
 issue_tracker: https://github.com/Uzair-Qaiser/telegram_native_auth/issues

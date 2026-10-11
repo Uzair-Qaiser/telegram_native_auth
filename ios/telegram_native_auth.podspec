@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'telegram_native_auth'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Native Telegram login for Flutter'
   s.description      = 'Telegram login for iOS with universal-link callbacks and browser authentication.'
   s.homepage         = 'https://github.com/Uzair-Qaiser/telegram_native_auth'

@@ -1,3 +1,8 @@
+## 1.0.2
+
+* Document public login APIs and exported libraries with Dartdoc comments.
+* Clarify configuration, token verification, callback forwarding, and cancellation.
+
 ## 1.0.1
 
 * Allow Equatable 2.x and 3.x while preserving the existing model API.
